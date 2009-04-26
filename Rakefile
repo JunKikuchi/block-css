@@ -4,7 +4,7 @@ require 'rake/gempackagetask'
 NAME = 'block-css'
 VERS = '0.0.1'
 
-desc 'Packages block-css'
+desc 'Package block-css'
 spec = Gem::Specification.new do |s|
   s.name = NAME
   s.version = VERS
