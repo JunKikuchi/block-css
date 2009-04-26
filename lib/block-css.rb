@@ -5,10 +5,6 @@ class BlockCSS
     @selectors = Selector.new
     @indent = params[:indent] || 2
     block.call(self) if block_given?
-    init
-  end
-
-  def init
   end
 
   def style(selector, params={}, &block)
